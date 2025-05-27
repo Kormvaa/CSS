@@ -1,0 +1,70 @@
+body {
+  font-family: "Inter", "Angkor", sans-serif;
+  background-color: white; 
+}
+
+.container {
+  max-width: 800px;
+  margin:  auto;
+  background-color: whitesmoke;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: whitesmoke;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: darkblue;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+.highlight {
+  font-weight: bold;
+  color: blue;
+  letter-spacing: 7px;
+  
+}
+
+.subtext {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+hr {
+  
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.learn-more {
+  background-color: #337df3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  letter-spacing: 5px;
+}
+
+.learn-more:hover {
+  background-color: blue;
+}
